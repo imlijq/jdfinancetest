@@ -7,6 +7,7 @@
       <Money></Money>
       <Product></Product>
       <Life></Life>
+      <Footer1></Footer1>
     </div>
 </template>
 
@@ -18,6 +19,7 @@ import Borrow from "./borrow.vue";
 import Money from "./money.vue";
 import Product from "./product.vue";
 import Life from "./life.vue";
+import Footer1 from "../public/footer.vue";
 
 export default {
   components: {
@@ -28,6 +30,7 @@ export default {
     Money,
     Product,
     Life,
+    Footer1,
   }
 };
 </script>
